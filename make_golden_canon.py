@@ -1,6 +1,6 @@
 import numpy as np,wave
 from scipy.signal import lfilter
-exec(open("/home/mettaclaw/artifacts/fm_synth_engine_v2.py").read())
+exec(open("fm_synth_engine_v2.py").read())
 sr=44100;dur=90;N=sr*dur;pi2=6.283185307
 phi=(1+5**0.5)/2
 notes_hz=[];f=220.0
