@@ -1,0 +1,135 @@
+[
+  {
+    "step": 0,
+    "cents": 0.0,
+    "attractor": "unison",
+    "dev": 0.0,
+    "energy": 0.0
+  },
+  {
+    "step": 1,
+    "cents": 63.2,
+    "attractor": "octave",
+    "dev": 63.16,
+    "energy": 3988.9
+  },
+  {
+    "step": 2,
+    "cents": 126.3,
+    "attractor": "octave",
+    "dev": 126.32,
+    "energy": 3090.5
+  },
+  {
+    "step": 3,
+    "cents": 189.5,
+    "attractor": "septimal_min3rd_7:6",
+    "dev": 77.4,
+    "energy": 937.1
+  },
+  {
+    "step": 4,
+    "cents": 252.6,
+    "attractor": "septimal_min3rd_7:6",
+    "dev": 14.24,
+    "energy": 31.7
+  },
+  {
+    "step": 5,
+    "cents": 315.8,
+    "attractor": "minor3rd_6:5",
+    "dev": 0.15,
+    "energy": 0.0
+  },
+  {
+    "step": 6,
+    "cents": 378.9,
+    "attractor": "major3rd_5:4",
+    "dev": 7.36,
+    "energy": 10.2
+  },
+  {
+    "step": 7,
+    "cents": 442.1,
+    "attractor": "septimal_maj3rd_9:7",
+    "dev": 7.03,
+    "energy": 7.1
+  },
+  {
+    "step": 8,
+    "cents": 505.3,
+    "attractor": "fourth_4:3",
+    "dev": 7.22,
+    "energy": 11.4
+  },
+  {
+    "step": 9,
+    "cents": 568.4,
+    "attractor": "tritone_7:5",
+    "dev": 14.09,
+    "energy": 32.4
+  },
+  {
+    "step": 10,
+    "cents": 631.6,
+    "attractor": "tritone_7:5",
+    "dev": 49.07,
+    "energy": 392.8
+  },
+  {
+    "step": 11,
+    "cents": 694.7,
+    "attractor": "fifth_3:2",
+    "dev": 7.22,
+    "energy": 14.6
+  },
+  {
+    "step": 12,
+    "cents": 757.9,
+    "attractor": "fifth_3:2",
+    "dev": 55.93,
+    "energy": 872.7
+  },
+  {
+    "step": 13,
+    "cents": 821.1,
+    "attractor": "major6th_5:3",
+    "dev": 63.31,
+    "energy": 816.8
+  },
+  {
+    "step": 14,
+    "cents": 884.2,
+    "attractor": "major6th_5:3",
+    "dev": 0.15,
+    "energy": 0.0
+  },
+  {
+    "step": 15,
+    "cents": 947.4,
+    "attractor": "harmonic7th_7:4",
+    "dev": 21.46,
+    "energy": 79.3
+  },
+  {
+    "step": 16,
+    "cents": 1010.5,
+    "attractor": "minor7th_9:5",
+    "dev": 7.07,
+    "energy": 7.7
+  },
+  {
+    "step": 17,
+    "cents": 1073.7,
+    "attractor": "minor7th_9:5",
+    "dev": 56.08,
+    "energy": 484.5
+  },
+  {
+    "step": 18,
+    "cents": 1136.8,
+    "attractor": "unison",
+    "dev": 63.16,
+    "energy": 2190.2
+  }
+]
