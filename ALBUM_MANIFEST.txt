@@ -1,0 +1,16 @@
+CONIC SECTIONS — Album Manifest
+================================
+T01 Conic Focus (90s)
+T02 Fibonacci Spiral (120s)
+T03 Lorenz Drift FM (90s)
+T04 Shepard Lindenmayer (90s)
+T05 Golden Canon (90s)
+T06 Ellipse Orbit FM (93s)
+T07 Meantone Bridges (96s)
+T08 Hyperbolic Escape (90s)
+T09 Parabola Trajectory (120s)
+T10 Degenerate Conic (90s)
+--------------------------------
+Total: 16:09
+Mastered RMS: ~9500
+Bonus: wave_arc.wav (T8 Wave prototype, 120s)
