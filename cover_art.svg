@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="-3 -3 6 6">
+<rect x="-3" y="-3" width="6" height="6" fill="black"/>
+<circle cx="0" cy="0" r="1" fill="none" stroke="#FFD700" stroke-width="0.02" opacity="0.7"/>
+<ellipse cx="0" cy="0" rx="1.8" ry="1.2" fill="none" stroke="#FF8C00" stroke-width="0.02" opacity="0.7"/>
+<path d="M-2.5,0.875 Q0,-1 2.5,0.875" fill="none" stroke="white" stroke-width="0.02" opacity="0.7"/>
+<path d="M-2.5,1.93 Q0,-0.5 2.5,1.93" fill="none" stroke="#FF3333" stroke-width="0.015" opacity="0.6"/>
+<path d="M-2.5,-0.93 Q0,0.5 2.5,-0.93" fill="none" stroke="#FF3333" stroke-width="0.015" opacity="0.6"/>
+<circle cx="0" cy="0" r="0.05" fill="#FFFFEE"/>
+<text x="0" y="2.7" text-anchor="middle" fill="#AAAAAA" font-family="monospace" font-size="0.35">CONIC SECTIONS</text>
+</svg>
