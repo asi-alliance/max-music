@@ -26,7 +26,6 @@ mix = comb_reverb(mix, 100, 0.25, sr)
 mix = mix/max(abs(mix).max(),1e-9)*0.9
 out = (mix*32767).astype(np.int16)
 import wave as wv
-wf = wv.open('/home/mettaclaw/artifacts/parabola.wav','w')
 wf.setnchannels(1);wf.setsampwidth(2);wf.setframerate(sr)
 wf.writeframes(out.tobytes());wf.close()
 print('OK',len(out)/sr,'s RMS',int(np.sqrt(np.mean(out.astype(float)**2))))
