@@ -1,3 +1,5 @@
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, wave, sys
 sys.path.insert(0,"/home/mettaclaw/artifacts")
 from fm_synth_engine_v2 import fm_oscillator, comb_reverb
@@ -22,7 +24,7 @@ mix=comb_reverb(mix,120,0.3,sr)
 mix=mix/max(abs(mix).max(),1e-9)*0.9
 out=(mix*32767).astype(np.int16)
 import wave as wv
-wf=wv.open('/home/mettaclaw/artifacts/hyperbolic_escape.wav','w')
+wf=wv.open('hyperbolic_escape.wav','w')
 wf.setnchannels(1);wf.setsampwidth(2);wf.setframerate(sr)
 wf.writeframes(out.tobytes());wf.close()
 print('OK',len(out)/sr,'s RMS',int(np.sqrt(np.mean(out.astype(float)**2))))

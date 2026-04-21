@@ -1,3 +1,5 @@
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, sys
 sys.path.insert(0,'/home/mettaclaw/artifacts')
 from melody_engine import *
@@ -80,7 +82,7 @@ mix=np.tanh(mix/(max(abs(mix).max(),1e-9)*0.15))*0.95
 # removed duplicate normalization
 out=(mix*32767).astype(np.int16)
 import wave as wv
-wf=wv.open('/home/mettaclaw/artifacts/degenerate_conic.wav','w')
+wf=wv.open('degenerate_conic.wav','w')
 wf.setnchannels(1);wf.setsampwidth(2);wf.setframerate(sr)
 wf.writeframes(out.tobytes());wf.close()
 print('OK',len(out)/sr,'s RMS',int(np.sqrt(np.mean(out.astype(float)**2))))

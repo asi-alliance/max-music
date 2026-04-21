@@ -1,3 +1,5 @@
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np,wave
 from scipy.signal import lfilter
 exec(open("fm_synth_engine_v2.py").read())
@@ -32,7 +34,7 @@ mix=comb_reverb(mix,40,0.3)
 b=[1,-0.97];a=[1];mix=lfilter(b,a,mix)
 mix=mix/(np.max(np.abs(mix))+1e-9)
 out=(mix*32767).astype(np.int16)
-wf=wave.open("/home/mettaclaw/artifacts/golden_canon.wav","w")
+wf=wave.open("golden_canon.wav","w")
 wf.setnchannels(1);wf.setsampwidth(2);wf.setframerate(sr)
 wf.writeframes(out.tobytes());wf.close()
 print("Done",N,"samples")
