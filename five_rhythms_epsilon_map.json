@@ -1,0 +1,17 @@
+{
+  "flowing": {
+    "eps": "1-5"
+  },
+  "staccato": {
+    "eps": "5-10"
+  },
+  "chaos": {
+    "eps": "25-50"
+  },
+  "lyrical": {
+    "eps": "10-15"
+  },
+  "stillness": {
+    "eps": "0.5-1"
+  }
+}
