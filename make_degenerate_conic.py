@@ -1,7 +1,7 @@
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, sys
-sys.path.insert(0,'/home/mettaclaw/artifacts')
+
 from melody_engine import *
 from fm_synth_engine_v2 import fm_oscillator
 sr=44100; base=220.0

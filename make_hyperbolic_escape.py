@@ -1,7 +1,7 @@
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, wave, sys
-sys.path.insert(0,"/home/mettaclaw/artifacts")
+
 from fm_synth_engine_v2 import fm_oscillator, comb_reverb
 sr=44100; dur=90; base=220.0
 def edo19(step): return base*2**(step/19.0)
